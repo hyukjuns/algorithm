@@ -1,4 +1,4 @@
-package str;
+package boj.str;
 
 import java.io.BufferedWriter;
 import java.io.BufferedReader;
