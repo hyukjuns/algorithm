@@ -2,7 +2,7 @@ package boj.dfs; //17070 파이프 옮기기1 (dfs)
 import java.io.*;
 import java.util.*;
 
-class Main{
+class DFS_17070 {
 	private static int[][] graph = null;
 	
 	private static int N;

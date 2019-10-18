@@ -1,7 +1,7 @@
 package boj.greedy; //10610 30 그리디, 정수론 , 30의 배수 조건 1. 끝자리수가 0인지. 2. 각자라수의 합이 3의 배수인지, 조건 검사후 내림차순 정렬.
 import java.util.*;
 import java.io.*;
-public class boj {
+class Greedy_10610 {
 	public static void main(String args[]) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

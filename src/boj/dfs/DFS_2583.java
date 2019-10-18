@@ -2,7 +2,7 @@ package boj.dfs;//2583 영역구하기 dfs
 import java.io.*;
 import java.util.*;
 
-public class dfs {
+class DFS_2583 {
 	private static int m,n,k;
 	private static int[][] graph = null;
 	private static boolean[][] visited = null;

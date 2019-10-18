@@ -7,7 +7,7 @@ import java.util.*;
  	2. bfs 로 바이러스 전파
    	3. 안전지역 갯수 카운트하여 최대값 획득
 */
-public class bfs {
+class BFS_14502 {
 		
 	public static int[][] graph = null;
 	public static int[][] temp = null;

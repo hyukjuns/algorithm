@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 /*  cnt로 백트래킹 해주며 dfs알고리즘 사용  
 https://www.acmicpc.net/problem/6603 */
-public class dfs {
+class DFS_6603 {
 	
 	public static String[] arr=null;
 	public static int k;

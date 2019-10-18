@@ -2,7 +2,7 @@ package boj.bfs; //11724 연결 요소의 개수 bfs
 import java.io.*;
 import java.util.*;
 
-public class bfs {
+class BFS_11724 {
 	
 	public static int[][] graph=null;
 	public static boolean[] visited = null;

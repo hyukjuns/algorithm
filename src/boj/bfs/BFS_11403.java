@@ -27,7 +27,7 @@ import java.util.*;
 			2  1 1 1
 					*/
 	
-public class bfs {
+class BFS_11403 {
 	public static int N;
 	public static int[][] graph=null;
 	public static int[][] result = null;

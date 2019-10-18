@@ -2,7 +2,8 @@ package boj.dfs;
 import java.io.*;
 import java.util.*;
 
-public class dfs {
+class DFS_2468
+{
 	private static int n;
 	private static int cnt;
 	private static int[][] graph = null;
