@@ -1,4 +1,4 @@
-package boj.str;
+package boj.str; //1032 명령 프롬포트 str
 import java.io.BufferedWriter;
 import java.io.BufferedReader;
 import java.io.IOException;
