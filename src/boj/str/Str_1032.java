@@ -14,8 +14,8 @@ public class Str_1032 {
         for(int i=0; i<n; i++){
             str[i] = br.readLine();
         }
-        String temp = str[0];
 
+        String temp = str[0];
         for(int i=1; i<n; i++){
             StringBuilder res = new StringBuilder();
             for(int j=0; j<temp.length(); j++){
