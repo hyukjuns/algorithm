@@ -1,13 +1,9 @@
 package programmers;//2018 서머코딩 영어 끝말잇기
-import java.util.*;
-import java.io.*;
+import java.util.Stack;
+
 public class Eng {
     public static int[] solution(int n, String[] words) {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int[] answer = {};
-
-
         Stack<String> stk = new Stack<>();
 
         int id=0;
