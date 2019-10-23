@@ -1,4 +1,4 @@
-package boj.samsung_a;  // 171735 캐슬 디펜스 백트래킹, 시뮬레이션
+package boj.samsung_a;  // 17135 캐슬 디펜스 백트래킹, 시뮬레이션
 
 import java.io.BufferedWriter;
 import java.io.BufferedReader;
