@@ -1,4 +1,4 @@
-package boj.data_structure;
+package boj.data_structure;//7785 회사에 있는 사람 data_structure
 
 import java.io.*;
 import java.util.*;
