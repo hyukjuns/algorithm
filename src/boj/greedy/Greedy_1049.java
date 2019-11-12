@@ -20,17 +20,10 @@ public class Greedy_1049 {
             brand[i][1] = Integer.parseInt(st.nextToken());
         }
         int res=0;
-        if(n<6){
+        if(n<=6){
             for(int i=0; i<m; i++){
                 int temp = brand[i][1] * n;
                 compare[i] = Math.min(brand[i][0], temp);
-            }
-            Arrays.sort(compare);
-            res = compare[0];
-        }
-        else if(n==6){
-            for(int i=0; i<m; i++){
-                compare[i] = Math.min(brand[i][0],n*brand[i][1]);
             }
             Arrays.sort(compare);
             res = compare[0];
