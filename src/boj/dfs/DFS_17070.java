@@ -56,10 +56,3 @@ class DFS_17070 {
 	
 	
 }
-class DOT{
-	int r,c;	
-	public DOT(int r, int c) {
-		this.r = r;
-		this.c = c;
-	}
-}

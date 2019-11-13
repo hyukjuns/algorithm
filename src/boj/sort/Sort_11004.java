@@ -21,6 +21,5 @@ public class Sort_11004 {
         bw.write(arr.get(k-1)+"");
         bw.flush();
         bw.close();
-
     }
 }

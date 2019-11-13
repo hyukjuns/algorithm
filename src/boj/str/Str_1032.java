@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.Deque;
+import java.util.LinkedList;
 
 public class Str_1032 {
     public static void main(String[] args) throws IOException{
@@ -14,7 +16,6 @@ public class Str_1032 {
         for(int i=0; i<n; i++){
             str[i] = br.readLine();
         }
-
         String temp = str[0];
         for(int i=1; i<n; i++){
             StringBuilder res = new StringBuilder();
