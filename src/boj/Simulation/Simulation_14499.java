@@ -69,6 +69,7 @@ public class Simulation_14499 {
             for(int d=0; d<6; d++){//주사위 업데이트
                 dice[d+1] = ndice[d+1];
             }
+            //현재 위치 업데이트
             x = dx;
             y = dy;
         }
