@@ -30,7 +30,7 @@ public class Simulation_3190 {
                 return timeCnt;
 
             //사과 여부 체크
-            if(map[nheadY][nheadX] == 1){ //사과 존재, 몸길이 늘어남, 꼬리 그대
+            if(map[nheadY][nheadX] == 1){ //사과 존재, 몸길이 늘어남, 꼬리 그대로
                 map[nheadY][nheadX] = 2;
                 headX = nheadX;
                 headY = nheadY;
@@ -41,8 +41,8 @@ public class Simulation_3190 {
                 headX = nheadX;
                 headY = nheadY;
                 tail.add(new Point(headX,headY));
-                map[tail.peek().y][tail.peek().x] = 0;
-                tail.poll();//꼬리지우기
+                map[tail.peek().y][tail.peek().x] = 0;//꼬리 지우기
+                tail.poll();//꼬리 지우기
             }
             //방향 전환
             if(!order.isEmpty() && timeCnt == order.peek().time){
