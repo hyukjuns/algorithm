@@ -1,4 +1,4 @@
-package sansumgsw;
+package samsungsw;
 
 import java.io.*;
 import java.util.StringTokenizer;
