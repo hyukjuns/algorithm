@@ -1,7 +1,6 @@
 package boj.bruteforce;
 
 import java.io.*;
-import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class Brute_15684 {
@@ -40,7 +39,7 @@ public class Brute_15684 {
         }
         for(int j=1; j<=h; j++){
             for(int i=1; i<n; i++){
-                if(map[j][i-1] ==0 && map[j][i] == 0 && map[j][i+1] == 0){
+                if(map[j][i-1] ==0 && map[j][i] == 0 && map[j][i+1] == 0){ //현위치 왼쪽, 현위치, 현위치 오른쪽 검사
                     map[j][i] = 1;
                     solve(cnt+1,max);
                     map[j][i] = 0;
@@ -76,7 +75,6 @@ public class Brute_15684 {
             }
         }
 
-        //System.out.println(isEnd);
         if(ans>3)
             ans = -1;
         bw.write(ans+"");
