@@ -11,9 +11,9 @@ public class Sw_17142 {
     static int n,m;
     static char[][] map;
     static boolean[][] virused;
-    static LinkedList<Point> virusSite = new LinkedList<>();
     static boolean[] visited;
     static int[][] dir = {{0,1},{1,0},{0,-1},{-1,0}};
+    static LinkedList<Point> virusSite = new LinkedList<>();
     static int ans=Integer.MAX_VALUE;
 
     static void print(char[][] map){
@@ -64,9 +64,9 @@ public class Sw_17142 {
                     currentMap[ny][nx] = (char)(cur.cnt+1+'0');
                     q.add(new DOT3(ny,nx,cur.cnt+1));
                 }
+                //활성 바이러스가 비활성 바이러스가 있는 칸으로 가면 비활성 바이러스가 활성으로 변한다.
                 else if(currentMap[ny][nx]=='*' && !virused[ny][nx]){
-                     virused[ny][nx] = true;
-                    //currentMap[ny][nx] = (char)(cur.cnt+1+'0');
+                    virused[ny][nx] = true;
                     q.add(new DOT3(ny,nx,cur.cnt+1));
                 }
             }
