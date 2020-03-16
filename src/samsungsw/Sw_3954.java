@@ -2,11 +2,9 @@ package samsungsw;
 
 import java.io.IOException;
 import java.util.Scanner;
-import java.util.Stack;
 
 public class Sw_3954 {
     static int time;
-    static int[] loops = new int[2];
     static int[] stack = new int[4097];
     static int[] loopStack = new int[4097];
     static int maxPcIdx;
