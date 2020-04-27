@@ -1,7 +1,9 @@
+package programmers;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Solution {
+class FunctionDevelop {
     public static int[] solution(int[] progresses, int[] speeds) {
         Queue<Prog> q = new LinkedList<>();
         for(int i =0; i<progresses.length; i++){
