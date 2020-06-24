@@ -1,8 +1,8 @@
-package boj.Simulation;
+package boj.bruteforce;
 
 import java.io.*;
 
-public class Simul_6679 {
+public class Brute_6679 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
