@@ -156,9 +156,11 @@ public class Sw_17140 {
             if(r < map.length && c < map[0].length && map[r][c].get(0)==k){
                 break;
             }
+            //R 연산: 배열 A의 모든 행에 대해서 정렬을 수행한다. 행의 개수 ≥ 열의 개수인 경우에 적용된다.
             if(map.length >= map[0].length){// R 연산
                 sortRow();
             }
+            //C 연산: 배열 A의 모든 열에 대해서 정렬을 수행한다. 행의 개수 < 열의 개수인 경우에 적용된다.
             else if(map.length < map[0].length){// C 연산
                 sortCol();
             }
@@ -168,6 +170,7 @@ public class Sw_17140 {
 //            print();
 //            System.out.println();
         }
+        //100을 넘어가는 경우에는 -1을 출력한다.
         if(count>100)
             count=-1;
         bw.write(count+"");
