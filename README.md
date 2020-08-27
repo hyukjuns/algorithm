@@ -2,7 +2,7 @@
 ## Use skills & Tools
     - Java, MySQL
     - IntelliJ IDE CE 2019.2.3
-## Algorithm
+## Algorithms
     - Dynamic Programming
     - DFS/BFS
     - Greedy
@@ -11,8 +11,10 @@
     - Back Tracking
     - Tree
     - Sort
+    - Math [link_math](./Algorithmes/Math)
     - etc..
 ## Algorithm Practice Sites
     - Baekjoon online judge
     - Programmers
     - SWEA
+   
