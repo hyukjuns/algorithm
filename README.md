@@ -14,7 +14,7 @@
 - [Math](./Algorithms/Math/README.md)
 - etc..
 ## Algorithm Practice Sites
-- [Baekjoon online judge](./src/boj/)
+- [Baekjoon online judge](./src/boj)
 - [Programmers](./src/programmers)
 - [SWEA](./src/samsungsw)
 - [dev_matching_2020](./src/dev_matching_2020)
