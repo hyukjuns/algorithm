@@ -11,7 +11,7 @@
     - Back Tracking
     - Tree
     - Sort
-    - Math [link_math](./Algorithmes/Math)
+    - Math [link_math](Algorithms/Math)
     - etc..
 ## Algorithm Practice Sites
     - Baekjoon online judge
