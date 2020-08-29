@@ -7,7 +7,7 @@
 - [Programmers](./src/programmers)
 - [SWEA](./src/samsungsw)
 - [dev_matching_2020](./src/dev_matching_2020)
-## Algorithms Study
+## Algorithm Study
 - Dynamic Programming
 - DFS/BFS
 - Greedy
