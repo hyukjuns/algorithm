@@ -1,6 +1,6 @@
 # BackTracking
 ## Usage Example
-- 보통 순열을 만들때 자주 사용했다.
+- 보통 모든 경우의 순열을 만들어야 할 때 자주 사용했다.
 ```java
 public static void dfs(int index){
         if(index == n){

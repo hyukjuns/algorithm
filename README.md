@@ -8,7 +8,7 @@
 - Greedy
 - Simulation
 - Brute Force
-- Back Tracking
+- [Back Tracking](./Algorithms/Back_Tracking/README.md)
 - Tree
 - Sort
 - [Math](./Algorithms/Math/README.md)
