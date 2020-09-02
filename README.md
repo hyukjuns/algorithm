@@ -8,7 +8,7 @@
 - [SWEA](./src/samsungsw)
 - [dev_matching_2020](./src/dev_matching_2020)
 ## Algorithm Study
-- Dynamic Programming
+- [Dynamic Programming](./Algorithms/DynamicProgramming/README.md)
 - DFS/BFS
 - Greedy
 - Simulation
