@@ -8,15 +8,15 @@
 - [SWEA](./src/samsungsw)
 - [dev_matching_2020](./src/dev_matching_2020)
 ## Algorithm Study
-- [Dynamic Programming](./Algorithms/DynamicProgramming/README.md)
-- DFS/BFS
+- [Dynamic Programming](Algorithms/DP.md)
+- [DFS/BFS](Algorithms/DFS_BFS.md)
 - Greedy
 - Simulation
 - Brute Force
-- [Back Tracking](./Algorithms/Back_Tracking/README.md)
+- [Back Tracking](Algorithms/BackTracking.md)
 - Tree
 - Sort
-- [Math](./Algorithms/Math/README.md)
+- [Math](Algorithms/Math.md)
 - etc..
 
    
