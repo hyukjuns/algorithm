@@ -1,9 +1,9 @@
-package programmers.level1;
+package programmers;
 
 import java.io.*;
 import java.util.*;
 
-public class Kakao_blind_2019 {
+public class Kakao_blind_2019_1 {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -27,17 +27,10 @@ public class Kakao_blind_2019 {
             if(stages[i]==N+1)  continue;
             stage_1[stages[i]]++;
         }
-        for(int i = 1; i<=N; i++){
-            System.out.print(stage_1[i]);
-        }
-        System.out.println();
 
         stage_2[1] = stages.length;
         for(int i=2; i<=N; i++){
             stage_2[i] = stage_2[i-1] - stage_1[i-1];
-        }
-        for(int i = 1; i<=N; i++){
-            System.out.print(stage_2[i]);
         }
 
         ArrayList<Infolist> list = new ArrayList<>();
