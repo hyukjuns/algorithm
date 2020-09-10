@@ -1,5 +1,5 @@
-## Algorithms
-###소수 판별
+## Math Algorithms
+### 소수 판별
     - 에라토스테네스의 체
 ```
 1. 주어진 수,범위(n)만큼 배열 생성 후 인덱스를 값으로 초기화 int[] arr = new int[n];
@@ -11,7 +11,7 @@
 ### 최대공약수, 최소공배수
 - 최대공약수 GCD(Greatest Common Divisor)
     - 유클리드 호제법 사용
-```j
+```
 //(a >= b)
 int gcd=0;
 while(b != 0){
@@ -20,8 +20,8 @@ while(b != 0){
     b = nmg;
 }
 gcd = a;
-//반복문을 나오면 a가 gcd가 된다.
-//즉 a%b가 0이 되는 순간 b의 값이 gcd
+반복문을 나오면 a가 gcd가 된다.
+즉 a%b가 0이 되는 순간 b의 값이 gcd
 ```
 - 최소공배수 LCM (Least Common Multiple)
 ```
