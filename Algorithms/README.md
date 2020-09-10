@@ -2,3 +2,4 @@
 - [Math](Math.md)
 - [Backtracking](BackTracking.md)
 - [DynamicProgramming](DynamicProgramming)
+- [Sort](Sort.md)
