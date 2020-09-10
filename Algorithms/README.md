@@ -1,5 +1,1 @@
-# 알고리즘 종류 별 풀이 방법
-- [Math](Math.md)
-- [Backtracking](BackTracking.md)
-- [DynamicProgramming](DynamicProgramming)
-- [Sort](Sort.md)
+# 알고리즘/자료구조 이론 및 풀이

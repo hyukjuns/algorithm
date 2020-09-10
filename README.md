@@ -15,7 +15,7 @@
 - Brute Force
 - [Back Tracking](Algorithms/BackTracking.md)
 - Tree
-- Sort
+- [Sort](Algorithms/Sort.md)   
 - [Math](Algorithms/Math.md)
 - etc..
 
