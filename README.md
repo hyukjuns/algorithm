@@ -11,7 +11,7 @@
 - [Dynamic Programming](Algorithms/DP.md)
 - [DFS/BFS](Algorithms/DFS_BFS.md)
 - [Greedy](Algorithms/Greedy.md)
-- Simulation
+- [Simulation](Algorithms/Simulation.md)
 - Brute Force
 - [Back Tracking](Algorithms/BackTracking.md)
 - Tree
