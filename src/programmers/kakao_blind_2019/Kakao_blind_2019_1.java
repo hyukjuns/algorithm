@@ -1,4 +1,4 @@
-package programmers;
+package programmers.kakao_blind_2019;
 
 import java.io.*;
 import java.util.*;
