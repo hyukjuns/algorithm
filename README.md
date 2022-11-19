@@ -1,4 +1,4 @@
-### Algorithm & Data Structure practice
+### Algorithm & Data Structures
 ## Algorithm Practice Codes
 - [Baekjoon online judge](./algorithm_problems/boj)
 - [Programmers](./algorithm_problems/programmers)
