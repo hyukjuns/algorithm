@@ -11,4 +11,3 @@ def solution(name, yearning, photo):
                 continue
         result.append(score_sum)
     return result
-                
