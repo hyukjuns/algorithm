@@ -1,10 +1,9 @@
-from itertools import combinations
+test = ["mic","test"]
 
-test = ['cab','adaaa','a']
-simul_list = list(combinations(test, 3))
-print(simul_list)
-for simul in simul_list:
-    print(simul)
-    for jelly in simul:
-        print(jelly)
+test_dict = {i: v for i, v in enumerate(test)}
 
+for id, name in test_dict.items():
+    print(id, name)
+
+ans = str(list(test_dict))
+print(ans)
