@@ -1,3 +1,4 @@
-test = {"123":1, "456":2, '12':3}
-if '12' in test:
-    print('yes')
+matrix = [[0 for col in range(3)] for row in range(3)]
+print(matrix)
+
+sets = {}
