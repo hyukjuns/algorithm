@@ -1,6 +1,3 @@
-
-
-
 def solution(arr):
 
     stack = list()
