@@ -1,5 +1,6 @@
 def solution(players, callings):
     # dic = {"선수이름": 랭크}
+    # enumerate(list) -> (index, value)
     players_map = {player: i for i, player in enumerate(players)}
         
     for name in callings:
